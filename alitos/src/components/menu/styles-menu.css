@@ -1,0 +1,33 @@
+#banner{
+
+    display: block;
+    float: left;
+    width:87%;
+
+    height: 216px;
+    background-image: url('../../assets/banner.png');
+    
+    background-position: 0px -500px;
+    animation: backbanner 10s linear;
+
+}
+
+
+@keyframes backbanner{
+
+    0%{background-position: 0px -800px;}
+    75%{background-position: 0px -50px;}
+    100%{background-position:0px -500px;}
+
+}
+
+.tarjeta{
+    background-color: #CCC;
+    color: black;
+    font-size: 30px;
+    max-width: 1200px;
+    min-width: 80%;
+    min-height: 510px;
+    max-height: 510px;
+    
+}

@@ -1,0 +1,39 @@
+
+@font-face{
+font-family: 'Social';
+src: url('../../assets/fuentes/Social_Shapes.ttf');
+
+}
+
+
+.footer{
+background-color: black;
+border-top: 3px solid white;
+height: 500px;
+
+}
+
+.icono-redes{
+
+color:orange;
+font-family: 'Social';
+font-size: 30px;
+
+
+}
+
+.texto-redes{
+margin-left:7px ;
+text-decoration: none;
+color: white;
+font-size: 30px;
+transition: all 300ms;
+}
+
+#mapa{
+float: left;
+height: 400px;
+width: 350px;
+
+
+}
